@@ -18,10 +18,6 @@ muscle_workout_dict = {"Upper Chest": "Incline Dumbbell Press", "Middle Chest": 
                        "Lateral Head": "Tricep Extensions", "Medial Head": "Tricep Pushdowns", "Long Head - Tricep": "Katana Extensions"}
 
 
-# if muscle_group not in sub_musclegroup_dict:
-#     print("Muscle not recognized. Please try again.")
-#     muscle_group = str(input("Enter muscle group here: ")) #need to figure out the repeatly ask user if spelled wrong.
-
 for key in sub_musclegroup_dict:
     if key == muscle_group:
         print("Which specific muscle are you interested in?")
